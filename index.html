@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Prints Store</title>
+  <link rel="stylesheet" type="text/css" href="static/styles.css">
+</head>
+<body>
+
+<nav id="main-nav">
+  <h1>siiv</h1>
+  <a href="#" id="orderFormLink">Order Form</a>
+</nav>
+
+<nav id="print-nav">
+  <button class="filter" data-filter="all">All Prints</button>
+  <button class="filter" data-filter="5x7">5 x 7</button>
+  <button class="filter" data-filter="8x10">8 x 10</button>
+</nav>
+
+<div id="print-items-container"></div>
+
+<script id="print-item-template" type="text/template">
+    <div class="print-item">
+      <img class="print-img" src="{{image}}" alt="{{title}}">
+      <div class="print-info">
+        <div class="title-price-container">
+          <h2 class="print-title">{{title}}</h2>
+          <h2 class="print-price">{{price}}</h2>
+        </div>
+        <p class="print-size">{{size}}</p>
+        <p class="print-description">{{description}}</p>
+      </div>
+    </div>
+  </script>
+
+<script src="static/script.js"></script>
+
+</body>
+</html>
