@@ -1,6 +1,6 @@
 # SiiV Art Storefront
 
-SiiV is a work-in-progress website showcasing a collection of art prints. The artist is continuously adding new works and setting up the order form. The goal of this project is to develop a full-stack eCommerce platform with Stripe API integration.
+SiiV is an online storefront showcasing a collection of prints with a connected order form and the ability to filter items based on features. This project is also in progress, and the artist is adding new pieces / setting up the new order form, so the descriptions and link have placeholders for now. The end goal of this project is a full stack ecommerce platform with stripe API integration.
 
 ## Live Site
 
